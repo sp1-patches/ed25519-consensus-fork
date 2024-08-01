@@ -15,7 +15,7 @@ resolver = "2"
 hex = { version = "0.4", default-features = false, features = ["alloc"] }
 sha2 = { version = "0.9", default-features = false }
 rand_core = { version = "0.6", default-features = false }
-curve25519-dalek = { package = "curve25519-dalek-ng", git = "https://github.com/sp1-patches/curve25519-dalek-ng.git", branch = "patch-v4.1.1", default-features = false, features = [
+curve25519-dalek = { package = "curve25519-dalek-ng", git = "https://github.com/sp1-patches/curve25519-dalek-ng.git", branch = "new-patch-v4.1.1", default-features = false, features = [
     "u32_backend",
     "alloc",
 ] }
